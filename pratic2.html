@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body{
+            height: 100%;
+            margin: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:white(5, 26, 61);
+        }
+        form{
+            width: 300px;
+            justify-content: center;
+            padding: 10px;
+            border: 1px solid gray;
+            border-color: black;
+            box-shadow: 1px 1px 1px 1px black(230, 225, 225);
+        }
+        .formcontroller{
+            padding: 20px;
+        }
+        input[type="text"] {
+            width: 220px;
+            height: 35px;
+        }
+        input[type="password"] {
+            width: 230px;
+            height: 35px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="formcontroller">
+            <label for="username">username</label>
+            <input type="text"
+            id="username"
+            placeholder="put username"
+            name="username"
+            />
+        </div>
+        <div class="formcontroller">
+            <label for="password">password</label>
+            <input type="password" placeholder="put password" id="password"
+            />
+        </div>
+        <div class="formcontroller">
+            <button type="submit">LOGIN</button>
+        </div>
+    </form>
+</body>
+</html>
