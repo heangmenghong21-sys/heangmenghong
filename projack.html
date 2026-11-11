@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        margin:0;
+        flex-direction: column;
+    }
+    header{
+        background-color: rgb(5, 15, 15);
+        color: rgb(228, 227, 226);
+        text-align: center;
+        padding: 20px;
+    }
+    nav{
+        padding: 10px;
+        border: 1px rebeccapurple;
+        background-color: burlywood;
+    }
+    nav a {
+        display: flex;
+    }
+    main {
+        display: flex;
+    }
+    aside{
+        width: 210px;
+        padding: 10px;
+        background-color: blueviolet;
+    }
+    section {
+        padding: 20px;
+    }
+    footer {
+        color: pink;
+        padding: 20px;
+       text-align: center;
+       background-color: aquamarine;
+       }
+       fieldset {
+        text-align: center;
+       }
+
+</style>
+<body>
+    <header>
+    <h1>My projact</h1>
+    </header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </nav>
+   <main>
+    <aside>
+        <ul>
+            <li><a href="image">image</a></li>
+            <li><a href="video">video</a></li>
+            <li><a href="sound">sound</a></li>
+        </ul>
+    </aside>
+    <section>
+        <h2>MY fist projact</h2>
+        <p>This is my website</p>
+        <article id="image">
+            <h3>image</h3>
+            <p>this is a description of the image</p>
+            <figure>
+                <img src="images.jpg">
+                <figcaption>image support paragraph</figcaption>
+            </figure>
+        </article>
+        <article id="video">
+            <h3>video</h3>
+            <p>This is a description of the video</p>
+            <figure>
+                <video src="_Life_ - A Silent, Smart & Simple Short Film!.mp4"></video>
+                <figcaption>video support paragraph</figcaption>
+            </figure>
+        </article>
+        <article id="sound">
+            <h3>sound</h3>
+            <p>This is a description of the sound</p>
+            <figure>
+                <audio src="alex-morgan-audio-library-591312.mp3" controls play>
+               </audio>
+               <figcaption>sound support paragraph</figcaption>
+            </figure>
+        </article>
+    </section>
+   </main>
+   <footer>
+    <h2>Contact me</h2>
+   </footer>
+</body>
+</html>
